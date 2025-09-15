@@ -11,8 +11,8 @@ height: 100vh;
 }
 
 .component{
-    height: 540px;
-    width: 350px;
+    height: 470px;
+    width: 300px;
     background-color: white;
     border-radius: 20px;
     padding: 15px;
@@ -22,15 +22,14 @@ height: 100vh;
 
 .component img{
     width: 100%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    position: inherit;
     border-radius: 10px;
 }
 .component h1{
     font-family: 'Outfit', sans-serif;
     padding: 15px;
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
     color: hsl(218, 44%, 22%)
 }
 
@@ -40,6 +39,6 @@ height: 100vh;
     padding-top: 0px;
     text-align: center;
     color: hsl(216, 15%, 48%);
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.6;
 }
